@@ -1,0 +1,32 @@
+{
+    "listData":[
+        {
+            "label": "简介",
+            "children": [
+                {
+                    "label": "项目说明",
+                    "path": "/model/quikeStart"
+                }
+            ]
+        },
+        {
+            "label": "表单",
+            "children": [
+                {
+                    "label": "自定义复选框",
+                    "path": "/form/baseSelect"
+                }
+            ]
+        },
+        {
+            "label": "其他",
+            "children": [
+                {
+                    "label": "三角形",
+                    "path": "/other/triangle"
+
+                }
+            ]
+        }
+    ]
+}
