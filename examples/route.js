@@ -1,3 +1,10 @@
+/*简介*/
+import menu from './docs/introduction/menu.md'
+import project from './docs/introduction/project.md'
+
+/*其他*/
+import borderDash from './docs/other/borderDash.md'
+
 import Install from './docs/install.md'
 import QuikeStart from './docs/quikeStart.md'
 import Input from './docs/input.md'
@@ -19,6 +26,14 @@ const routes = [
         path: '/show',
         redirect: '/model/quikeStart'
       },
+      { path: '/model/menu',
+        name: 'menu',
+        component: menu
+      },
+      { path: '/model/project',
+        name: 'project',
+        component: project
+      },
       { path: '/form/baseSelect',
         name: 'baseSelect',
         component: baseSelect
@@ -26,6 +41,10 @@ const routes = [
       { path: '/other/triangle',
         name: 'triangle',
         component: triangle
+      },
+      { path: '/other/borderDash',
+        name: 'borderDash',
+        component: borderDash
       },
       { path: '/guide/install',
         name: 'Install',

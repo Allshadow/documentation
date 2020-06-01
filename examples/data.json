@@ -6,6 +6,14 @@
                 {
                     "label": "项目说明",
                     "path": "/model/quikeStart"
+                },
+                {
+                    "label": "目录结构",
+                    "path": "/model/menu"
+                },
+                {
+                    "label": "项目操作",
+                    "path": "/model/project"
                 }
             ]
         },
@@ -24,6 +32,11 @@
                 {
                     "label": "三角形",
                     "path": "/other/triangle"
+
+                },
+                {
+                    "label": "虚线效果",
+                    "path": "/other/borderDash"
 
                 }
             ]
